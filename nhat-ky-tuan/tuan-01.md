@@ -3,8 +3,9 @@
 > **File ví dụ** — tên, số liệu và link đều là giả. Tuần mới thì copy
 > [`_mau-tuan.md`](_mau-tuan.md) thành `tuan-02.md`.
 
-**Lead 1:** @ngohung01
+**Lead 1:** [ngohung01](https://github.com/ngohung01)
 **Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 204](https://cvat.note.transformerlabs.ai/tasks/204)
+<br>
 **Lead 2:** @thaianthai15
 **Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 204](https://cvat.note.transformerlabs.ai/tasks/204)
 
