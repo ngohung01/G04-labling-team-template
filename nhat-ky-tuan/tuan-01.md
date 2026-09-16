@@ -5,20 +5,22 @@
 
 **Lead 1:** [ngohung01](https://github.com/ngohung01)
 **Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 204](https://cvat.note.transformerlabs.ai/tasks/204)
+
 <br>
-**Lead 2:** @thaianthai15
-**Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 204](https://cvat.note.transformerlabs.ai/tasks/204)
+
+**Lead 2:** [thaianthai15](https://github.com/thaianthai15)
+**Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 150](https://cvat.note.transformerlabs.ai/tasks/150)
 
 
 ## Thành viên và phân công
 
 | Thành viên | Vị trí | Phân công tuần này |
 |---|---|---|
-| Ngô Văn Hưng (@ngohung01) | Lead · Reviewer · Annotator | Chia job, chốt edge case, review xác suất 10% mọi job; gán job 1450  |
-| Nguyễn An Thái (@thaianthai15) | Lead · Reviewer · Annotator | Chia job, chốt edge case, review xác suất 10% mọi job; gán job 1666  |
-| Lê Danh Trung (@TrungLD-ux) | Annotator | Job 1667, ?? |
-| Trương Công Hoài Nam (@merlin2003-ai) | Annotator | Job 1668 , ?? |
-| Nguyễn Lê Thế Anh (@Theanh271) | Annotator |  Job 1669 , ?? |
+| Ngô Văn Hưng ([ngohung01](https://github.com/ngohung01)) | Lead · Reviewer · Annotator | Chia job, chốt edge case, review xác suất 10% mọi job; gán job 1450  |
+| Nguyễn An Thái ([thaianthai15](https://github.com/thaianthai15)) | Lead · Reviewer · Annotator | Chia job, chốt edge case, review xác suất 10% mọi job; gán job 1666  |
+| Lê Danh Trung ([TrungLD-ux](https://github.com/TrungLD-ux)) | Annotator | Job 1451, 1667 |
+| Trương Công Hoài Nam ([merlin2003-ai](https://github.com/merlin2003-ai)) | Annotator | Job 1452, 1668  |
+| Nguyễn Lê Thế Anh ([Theanh271](https://github.com/Theanh271)) | Annotator |  Job 1453, 1669  |
  
 ## Công việc
 
