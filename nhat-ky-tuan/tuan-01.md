@@ -3,20 +3,22 @@
 > **File ví dụ** — tên, số liệu và link đều là giả. Tuần mới thì copy
 > [`_mau-tuan.md`](_mau-tuan.md) thành `tuan-02.md`.
 
-**Lead tuần này:** @thanh-vien-a
-**Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 12](https://cvat.example.com/tasks/12)
+**Lead 1:** @ngohung01
+**Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 204](https://cvat.note.transformerlabs.ai/tasks/204)
+**Lead 2:** @thaianthai15
+**Dữ liệu / task CVAT:** Ảnh giao thông đô thị — [task 204](https://cvat.note.transformerlabs.ai/tasks/204)
+
 
 ## Thành viên và phân công
 
 | Thành viên | Vị trí | Phân công tuần này |
 |---|---|---|
-| Nguyễn Văn A (@thanh-vien-a) | Lead | Chia job, chốt edge case, review xác suất 10% mọi job |
-| Trần Thị B (@thanh-vien-b) | Annotator | Job 101, 102 |
-| Lê Văn C (@thanh-vien-c) | Annotator | Job 103, 104 |
-| Phạm Thị D (@thanh-vien-d) | Reviewer · Annotator | Review job 101–104; gán job 105 |
-
-Phạm Thị D vừa review vừa gán, nên job 105 do Lead review.
-
+| Ngô Văn Hưng (@ngohung01) | Lead · Reviewer · Annotator | Chia job, chốt edge case, review xác suất 10% mọi job; gán job 1450  |
+| Nguyễn An Thái (@thaianthai15) | Lead · Reviewer · Annotator | Chia job, chốt edge case, review xác suất 10% mọi job; gán job 1666  |
+| Lê Danh Trung (@TrungLD-ux) | Annotator | Job 1667, ?? |
+| Trương Công Hoài Nam (@merlin2003-ai) | Annotator | Job 1668 , ?? |
+| Nguyễn Lê Thế Anh (@Theanh271) | Annotator |  Job 1669 , ?? |
+ 
 ## Công việc
 
 | # | Nội dung công việc | Annotator | Reviewer | Hoàn thành | Ghi chú |
