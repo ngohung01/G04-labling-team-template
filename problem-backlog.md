@@ -11,9 +11,12 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 
 | Mã | Tóm tắt | Loại | Mục guideline | Trạng thái | Kết quả |
 |---|---|---|---|---|---|
-| [P-001](#p-001) | Người ngồi sau xe máy: box riêng hay gộp với người lái | Guideline mơ hồ | §3.2 | ✅ Đã chốt | [QĐ-001](so-quyet-dinh.md#qđ-001) |
+| [P-001](#p-001) | Chưa rõ Drivable Area cần bao phủ toàn bộ phần mặt đường có thể quan sát được, hay vùng xe có thể chạy, trường hợp chỉ được xe ưu tiên đi qua thì sao, area/drivable và area/alternative chưa được định nghĩa  | Guideline chưa nói tới | §4.1 | ↗️ Hỏi BTC | — |
 | [P-002](#p-002) | Xe bị che khuất hơn một nửa | Guideline chưa nói tới | §3.4 | ↗️ Hỏi BTC | — |
 | [P-003](#p-003) | Phải vẽ lại box y hệt qua nhiều frame liên tiếp | Pain point công cụ | — | 🗣️ Đang bàn | — |
+
+> Ví dụ:
+>| [P-001](#p-001) | Người ngồi sau xe máy: box riêng hay gộp với người lái | Guideline mơ hồ | §3.2 | ✅ Đã chốt | [QĐ-001](so-quyet-dinh.md#qđ-001) 
 
 **Loại**
 
@@ -30,21 +33,19 @@ mỗi người sẽ tự xử lý theo một kiểu — và đó là nguồn l�
 
 ## P-001
 
-**Người ngồi sau xe máy: box riêng hay gộp chung với người lái**
+**Chưa rõ Drivable Area: area/drivable và area/alternative chưa được định nghĩa, vùng có nhiều lane ( có vạch kẻ liền , nét đứt) thì vẽ như nào, vùng có cả đường ưu tiên thì sao**
 
-- **Loại:** Guideline mơ hồ
-- **Mục guideline:** §3.2 — "mỗi người một bounding box"
-- **Người phát hiện:** @thanh-vien-b · 16/09/2026
+- **Loại:** Guideline chưa nói tới
+- **Mục guideline:** §4.1 — "chưa thấy phân biệt drivable/alternative "
+- **Người phát hiện:** [ngohung01](https://github.com/ngohung01) · 16/09/2026
 - **Link CVAT:**
-  - https://cvat.example.com/tasks/12/jobs/101?frame=37 — hai người, gần như chồng khít
-  - https://cvat.example.com/tasks/12/jobs/101?frame=112 — người ngồi sau chỉ lộ đầu
-- **Mô tả:** §3.2 nói mỗi người một box, nhưng hình minh hoạ trong guideline lại vẽ một box
-  cho cả xe máy lẫn người trên xe.
+  - https://cvat.note.transformerlabs.ai/tasks/150/jobs/1450?frame=0 
+- **Mô tả:** §4.1 Phân biệt area/drivable và area/alternative theo định nghĩa đã được giảng viên/mentor chốt cho batch; khôngtựđổi nhãn khi chưa chắc. 
 - **Các cách hiểu:**
-  1. Theo câu chữ: người ngồi sau có box `nguoi` riêng.
-  2. Theo hình minh hoạ: không vẽ box `nguoi` cho ai đang ngồi trên xe.
-- **Xử lý tạm trong lúc chờ:** vẽ box riêng và gắn tag `can_xem_lai` để dễ lọc ra sửa.
-- **Kết quả:** ✅ [QĐ-001](so-quyet-dinh.md#qđ-001)
+  1. area/drivable : là vẽ vùng xe đang lái có thể chạy
+  2. area/alternative: là vẽ vùng xe đang lái có thể thay thế 
+- **Xử lý tạm trong lúc chờ:** vẽ polygon cho phần lane xe có thể chạy trước mặt gán class area/drivable
+- **Kết quả:** ↗️ Đã hỏi BTC ngày 17/09/2026, chờ trả lời.
 
 ## P-002
 
